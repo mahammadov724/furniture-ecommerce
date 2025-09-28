@@ -29,8 +29,10 @@ public class UserRequestDto {
 	private String email;
 	
 	@NotNull
+	@Size(min = 2, max= 30,message= "Username must be min 2 max 30 characters")
 	private String username;
 	
 	@NotNull
+	@Size(min = 2, max= 30,message= "Password must be min 2 max 30 characters")
 	private String password;
 }

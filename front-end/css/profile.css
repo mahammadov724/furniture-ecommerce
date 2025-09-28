@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+header{
+    width: 100%;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.header-image {
+    width: 100%;
+}
+.header-image img{
+    width: 100%;
+}
+.sub-header{
+    width: 100%;
+    /* border: 1px solid black; */
+    height: 60px;
+    display: flex;
+}
+.sub-header .part1{
+    width: 70%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.sub-header .part1 ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    list-style-type: none;
+}
+.sub-header .part1 ul li a {
+    text-decoration: none;
+    color: black;
+}
+.sub-header .part2{
+    width: 30%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+}
+.sub-header .part2 ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    list-style-type: none;
+}
+.sub-header .part2 ul li button{
+    padding: 5px;
+    background-color: white;
+    border: 0;
+    border: 1px solid black;
+    color: black;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.sub-header .part2 ul li a img{
+    width: 20px;
+}
+
+.sub-main{
+    width: 85%;
+    margin: auto;
+    margin-top: 35px;
+}
+.sub-main button{
+    padding: 5px 7px;
+    border: none;
+    cursor: pointer;
+    background-color: grey;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 13px;
+}
+.user-details{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+.user-details h3{
+    line-height: 2;
+    font-size: 25px;
+    font-weight: 500;
+    color: grey;
+}
+.user-details p{
+    line-height: 2;
+    font-size: 18px;
+    word-spacing: 5px;
+}

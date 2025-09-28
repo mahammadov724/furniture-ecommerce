@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/checkout.css">
+    <title>CheckOut</title>
+</head>
+<body>
+    <header>
+        <div class="sub-header">
+            <div class="part1">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./shop.html">Shop</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="./login.html">Signin</a></li>
+                </ul>
+            </div>
+            <div class="part2">
+                <ul>
+                    <li><a href="./profile.html"><img src="./image/user.png" alt=""></a></li>
+                    <li><a href="#"><img src="./image/search.png" alt=""></a></li>
+                    <li><a href="#"><img src="./image/heart.png" alt=""></li>
+                    <li><a href="./cart.html"><img src="./image/shoppingcart.png" alt=""></li>
+                    <li><a href="#"><button id="log-out">Log out</button></a></li>
+                </ul>
+            </div>
+        </div>
+         <div class="header-image">
+            <img src="./image/Group 78 (1).png" alt="">
+        </div>
+    </header>
+    <main>
+        <div class="sub-main">
+            <a href="#"></a>
+            <div class="left-side">
+                <h2>Billing Details</h2>
+                <div class="form-element">
+                    <form>
+                        <div class="fullName">
+                            <div class="firstName">
+                                <label for="">First Name</label> <br>
+                                <input type="text" id="firstName" autocomplete="off">
+                            </div>
+                            <div class="lastName">
+                                <label for="">Last Name</label> <br>
+                                <input type="text" id="lastName" autocomplete="off">
+                            </div>
+                        </div>
+                        <div class="country">
+                            <label for="">Country</label> <br>
+                           <select name="" id="country" style="padding-left: 10px; padding-right: 30px;">
+                                <option value="">Country</option>
+                                <option value="Azerbaijan">Azerbaijan</option>
+                                <option value="Turkiye">Turkiye</option>
+                                <option value="Ingiltere">Ingiltere</option>
+                                <option value="Ispaniya">Ispaniya</option>
+                                <option value="Rusiya">Rusiya</option>
+                                <option value="Iran">Iran</option>
+                            </select>
+                        </div>
+                        <div class="address">
+                            <label for="">Address</label> <br>
+                            <input type="text" id="address" autocomplete="off">
+                        </div>
+                        <div class="city">
+                            <label for="">Town/City</label> <br>
+                            <input type="text" id="city" autocomplete="off">
+                        </div>
+                        <div class="phone">
+                            <label for="">Phone</label> <br>
+                            <input type="text" id="phone" autocomplete="off">
+                        </div>
+                        <div class="email">
+                            <label for="">Email</label> <br>
+                            <input type="email" id="email" autocomplete="off">
+                        </div>
+                        <div class="cart-number">
+                            <label for="">Cart Number</label> <br>
+                            <input type="text" id="cartNumber" autocomplete="off">
+                        </div>
+                        <div class="zip-code">
+                            <label for="">Zip Code</label> <br>
+                            <input type="text" id="zipCode" autocomplete="off">
+                        </div>
+                        <div class="expiry-month">
+                            <label for="">Expiry Month</label> <br>
+                            <input type="text" id="expiryMonth" autocomplete="off">
+                        </div>
+                        <div class="expiry-year">
+                            <label for="">Expiry Year</label> <br>
+                            <input type="number" id="expiryYear" autocomplete="off">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="right-side">
+                <div class="cart-totals">
+                    <div>
+                        <h3>Product</h3>
+                        <h3>Subtotal</h3>
+                    </div>
+                    <div class="subtotal">
+                        <h4>Subtotal</h4>
+                        <p id="sub-total">0 AZN</p>
+                    </div>
+                    <div class="total">
+                        <h4>Total</h4>
+                        <p id="total">0 AZN</p>
+                    </div>
+                    <hr>
+                    <p class="info">Your personal data will be used to support your experience throughout this website, to manage access to your account and for other purposes described in our <b>privacy policy</b></p>
+                    <div class="btn">
+                        <button id="orderBtn">Place order</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="sub-footer">
+            <div class="f_part1">
+                <p><a href="#">400 University Drive Suit 200 Coral Gables, FL 33134USA</a></p>
+            </div>
+            <div class="f_part2">
+                <h4>Links</h4>
+                <ul>
+                    <li>Home</li>
+                    <li>Shop</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="f_part3">
+                <h4>Help</h4>
+                <ul>
+                    <li>Payment Options</li>
+                    <li>Returns</li>
+                    <li>Privacy Policies</li>
+                </ul>
+            </div>
+            <div class="f_part4">
+                <h4>Newsteller</h4>
+                <div class="f_part41">
+                    <input class="input1" type="text" placeholder="Enter Your Email Address">
+                    <input class="input2" type="text" placeholder="SUBSCRIBE">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/checkout.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

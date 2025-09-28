@@ -1,7 +1,6 @@
 package com.example.furniture_ecommerce.handlers;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 import org.springframework.http.HttpStatus;

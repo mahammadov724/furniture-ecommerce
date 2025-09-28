@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/shop.css">
+    <title>Shop</title>
+</head>
+
+<body>
+    <header>
+        <div class="sub-header">
+            <div class="part1">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="./login.html">Signin</a></li>
+                </ul>
+            </div>
+            <div class="part2">
+                <ul>
+                    <li><a href="./profile.html"><img src="./image/user.png" alt=""></a></li>
+                    <li><a href="#"><img src="./image/search.png" alt=""></a></li>
+                    <li><a href="#"><img src="./image/heart.png" alt=""></li>
+                    <li><a href="./cart.html"><img src="./image/shoppingcart.png" alt=""></li>
+                    <li><a href="#"><button id="log-out">Log out</button></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-image">
+            <img src="./image/Frame 78.png" alt="">
+        </div>
+    </header>
+    <a href="#">
+        <main>
+        <div class="main-part1">
+            <div class="sub-main-part1">
+                <div class="search-input">
+                    <input type="search" placeholder="search" id="searchInput" oninput="searchProduct()">
+                </div>
+                <div class="filter-input">
+                    <select id="sortSelect">
+                        <option value="">Sort By</option>
+                        <option value="priceAsc">Sort by: Price (Low to High)</option>
+                        <option value="priceDesc">Sort by: Price (High to Low)</option>
+                    </select>
+                </div>
+            </div>
+
+        </div>
+        <div class="sub-main">
+            <div class="cards">
+                
+            </div>
+        </div>
+    </main>
+    </a>
+     <footer>
+        <div class="sub-footer">
+            <div class="f_part1">
+                <p><a href="#">400 University Drive Suit 200 Coral Gables, FL 33134USA</a></p>
+            </div>
+            <div class="f_part2">
+                <h4>Links</h4>
+                <ul>
+                    <li>Home</li>
+                    <li>Shop</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="f_part3">
+                <h4>Help</h4>
+                <ul>
+                    <li>Payment Options</li>
+                    <li>Returns</li>
+                    <li>Privacy Policies</li>
+                </ul>
+            </div>
+            <div class="f_part4">
+                <h4>Newsteller</h4>
+                <div class="f_part41">
+                    <input class="input1" type="text" placeholder="Enter Your Email Address">
+                    <input class="input2" type="text" placeholder="SUBSCRIBE">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/shop.js"></script>
+</body>
+
+</html>
